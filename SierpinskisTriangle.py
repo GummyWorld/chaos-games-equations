@@ -72,6 +72,9 @@ def main():
 
     label1 = Label(buttonwin,text = 'SIERPINSKI TRAINGLE')
     label1.pack(side=BOTTOM)
+
+    label2 = Label(buttonwin,text = 'Press the menu to plot first three point, then press any up arrow to start simulation.')
+    label2.pack(side=BOTTOM)
     
     root.update()
     pygame.display.update()
